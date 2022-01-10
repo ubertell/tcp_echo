@@ -1,2 +1,9 @@
-# tcp_echo
-A TCP Echo server.
+tcp_echo
+=====
+
+An OTP application
+
+Build
+-----
+
+    $ rebar3 compile

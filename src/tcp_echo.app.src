@@ -1,0 +1,12 @@
+{application, tcp_echo,
+ [{applications, [kernel, stdlib ]},
+  {description, "An OTP application"},
+  {env, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []},
+  {mod, {tcp_echo_app, []}},
+  {modules, [tcp_echo_app,
+             tcp_echo_sup,
+             tcp_echo_server]},
+  {registered, []},
+  {vsn, "0.1.0"}]}.
